@@ -16,13 +16,12 @@
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "on",
 "editor.guides.indentation": false,
-  "scm.diffDecorations": "none",
+  "scm.diffDecorations": "gutter",
   "editor.hover.delay": 1500,
   "editor.hover.enabled": true,
   "editor.matchBrackets": "never",
   "workbench.tips.enabled": false,
   "editor.colorDecorators": false,
-  "git.decorations.enabled": false,
   "workbench.startupEditor": "none",
   "editor.lightbulb.enabled": "off",
   "editor.selectionHighlight": false,
@@ -170,8 +169,8 @@
   },
   "material-icon-theme.saturation": 1,
   "vscode_custom_css.imports": [
-      "file:///C:\\Users\\kevin\\Documents\\Programming\\vscode-config\\custom-vscode.css",
-      "file:///C:\\Users\\kevin\\Documents\\Programming\\vscode-config\\vscode-script.js"
+      "file:///C:\\Users\\Kevin\\Documents\\Programming\\vscode-config\\minimalist\\custom-vscode.css",
+      "file:///C:\\Users\\Kevin\\Documents\\Programming\\vscode-config\\minimalist\\vscode-script.js"
 ],
   "workbench.sideBar.location": "right",
   "material-icon-theme.files.color": "#42a5f5",
@@ -313,7 +312,6 @@
     "terminal.integrated.enableMultiLinePasteWarning": "always",
     "prisma.showPrismaDataPlatformNotification": false,
     "python.createEnvironment.trigger": "off",
-    "git.openRepositoryInParentFolders": "never",
     "cmake.pinnedCommands": [
       "workbench.action.tasks.configureTaskRunner",
       "workbench.action.tasks.runTask"
@@ -321,7 +319,7 @@
     "[c]": {
       "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "git.suggestSmartCommit": false
-
-
+    "git.suggestSmartCommit": false,
+    "window.menuBarVisibility": "compact",
+    "git.openRepositoryInParentFolders": "always"
 }
