@@ -1,6 +1,6 @@
 # vscode-config
 * I currently have two configs.
-  * Minamlist setup that relies on keybinds to navigate.
+  * Minimalist setup that relies on keybinds to navigate.
   * Standard setup
 
 
