@@ -56,6 +56,12 @@
     color: #FFF !important;
 }
 
+/* File Explorer differentiate between directories and files.*/
+
+.monaco-tl-row > .monaco-tl-contents .folder-icon {
+  color: #a1a1aa !important;
+}
+
 
 /* Sidebar top shadow */
 .monaco-scrollable-element>.shadow.top {
