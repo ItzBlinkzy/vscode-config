@@ -4,7 +4,6 @@
   "editor.emptySelectionClipboard": false,
   "workbench.editor.enablePreview": false,
   "window.newWindowDimensions": "inherit",
-  "editor.multiCursorModifier": "ctrlCmd",
   "files.trimTrailingWhitespace": true,
   "diffEditor.renderSideBySide": false,
   "editor.snippetSuggestions": "top",
@@ -17,7 +16,7 @@
   "editor.lineNumbers": "on",
 "editor.guides.indentation": false,
   "scm.diffDecorations": "gutter",
-  "editor.hover.delay": 1500,
+  "editor.hover.delay": 250,
   "editor.hover.enabled": true,
   "editor.matchBrackets": "never",
   "workbench.tips.enabled": false,
@@ -39,10 +38,10 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
 
   // Typography
-  "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+  "editor.fontFamily": "JetBrains Mono, Geist Mono, Fira Code",
   "editor.suggestFontSize": 16,
   "editor.suggestLineHeight": 30,
-  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontSize": 16,
 
   "search.useIgnoreFiles": false,
@@ -121,15 +120,17 @@
   "security.workspace.trust.untrustedFiles": "open",
   "editor.linkedEditing": true,
 //   "editor.fontLigatures": false,
-//   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "diffEditor.wordWrap": "on",
   "notebook.output.wordWrap": true,
-  "editor.fontSize": 15,
   "editor.minimap.maxColumn": 250,
   "codesnap.containerPadding": "8em",
   "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
   "explorer.confirmDelete": false,
   "editor.accessibilitySupport": "off",
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
   "chat.editor.wordWrap": "on",
   "editor.wordWrap": "wordWrapColumn",
   "tailwindCSS.includeLanguages": {
@@ -144,29 +145,7 @@
   "codesnap.showLineNumbers": false,
   "codesnap.roundedCorners": true,
   "editor.padding.top": 16,
-  "editor.lineHeight": 22,
-
-  "editor.tokenColorCustomizations": {
-      "textMateRules": [
-          {
-            "scope": [
-              "comment",
-              "keyword",
-              "variable.language",
-              "entity.other.attribute-name.html",
-              "entity.other.attribute-name",
-              "keyword.control",
-              "storage.type",
-              "comment",
-              "comment.block",
-              "comment.line"
-            ],
-            "settings": {
-              "fontStyle": ""
-            }
-        }
-        ]
-  },
+  "editor.lineHeight": 1.5,
   "material-icon-theme.saturation": 1,
   "vscode_custom_css.imports": [
       "file:///C:\\Users\\Kevin\\Documents\\Programming\\vscode-config\\minimalist\\custom-vscode.css",
@@ -174,9 +153,9 @@
 ],
   "workbench.sideBar.location": "right",
   "material-icon-theme.files.color": "#42a5f5",
-"workbench.tree.enableStickyScroll": false,
-"material-icon-theme.folders.theme": "specific",
-"workbench.colorTheme": "One Monokai",
+  "workbench.tree.enableStickyScroll": false,
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.colorTheme": "Atom One Dark",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "explorer.confirmDragAndDrop": false,
     "workbench.colorCustomizations": {
@@ -229,7 +208,6 @@
         "statusBarItem.remoteBackground": "#AB47BC"
       }
     },
-    "editor.fontLigatures": false,
     "files.autoSaveDelay": 800,
     "[json]": {
       "editor.quickSuggestions": {
@@ -311,7 +289,6 @@
     "C_Cpp.inlayHints.referenceOperator.enabled": true,
     "terminal.integrated.enableMultiLinePasteWarning": "always",
     "prisma.showPrismaDataPlatformNotification": false,
-    "python.createEnvironment.trigger": "off",
     "cmake.pinnedCommands": [
       "workbench.action.tasks.configureTaskRunner",
       "workbench.action.tasks.runTask"
@@ -321,5 +298,8 @@
     },
     "git.suggestSmartCommit": false,
     "window.menuBarVisibility": "compact",
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "python.createEnvironment.trigger": "off",
+    "editor.fontSize": 16
+
 }
