@@ -1,6 +1,6 @@
 # My VSCode Configurations
 
-This repository contains two distinct VSCode configurations: a minimalist setup optimized for keybindings and a standard setup with minor tweaks for a more UI-focused experience.
+This repository contains two distinct VSCode configurations: a minimalist setup optimized for keybindings with a more modern look and a standard setup with minor tweaks for a more UI-focused experience.
 
 ## 1. Minimalist Configuration
 ![Minimalist Config Screenshot](https://github.com/user-attachments/assets/bc39a9f3-2dd3-4098-b928-4700278b8cdf)
