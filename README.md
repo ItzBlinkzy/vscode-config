@@ -3,6 +3,7 @@
 This repository contains two distinct VSCode configurations: a minimalist setup optimized for keybindings with a more modern look and a standard setup with minor tweaks for a more UI-focused experience.
 
 ## 1. Minimalist Configuration
+![Home Screen](https://github.com/user-attachments/assets/d755b87d-7f94-4f96-8415-8a8f4415c090)
 ![Minimalist Config Screenshot](https://github.com/user-attachments/assets/bc39a9f3-2dd3-4098-b928-4700278b8cdf)
 ![Command Palette](https://github.com/user-attachments/assets/b59b5de7-23fa-4936-a3e7-f61a7996eb34)
 ![Tool Tips](https://github.com/user-attachments/assets/a507c5ec-f644-482d-b0e2-568bc5a240f8)
@@ -10,6 +11,7 @@ This repository contains two distinct VSCode configurations: a minimalist setup 
 This setup is designed to declutter the workspace by removing unnecessary UI elements. It’s focused on maximising the view of code and relies heavily on keybindings to navigate and manage files.
 
 ### Key Features:
+- **Modern Home Screen**: A modern looking SVG that includes various web technologies and programming languages
 - **Activity Bar & Menu Bar Hidden**: Access these features through default keybindings to keep the interface clean.
 - **Minimap Disabled**: Removed to provide more room for code.
 - **Line Height Increased**: Slightly raised for better readability.
